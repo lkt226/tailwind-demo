@@ -1,0 +1,8 @@
+main {
+    @apply p-10 max-h-[100vh] w-full max-w-none
+            prose lg:prose-xl xl:prose-2xl;
+}
+
+main >div {
+    @apply gap-12 h-full overflow-y-auto overflow-x-hidden;
+}
